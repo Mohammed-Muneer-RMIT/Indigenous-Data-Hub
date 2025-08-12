@@ -1,0 +1,329 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial;
+   background:rgb(255, 255, 255);
+   padding: 0px;
+}
+
+/* Header (div) formatting 
+header {
+   padding: 10px;
+   text-align: center;
+   background-color: transparent;
+   color: #000000;
+}*/
+
+.indexcontainer{
+  max-width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    padding: 0px;
+}
+.homeimage{
+  background: url('Home Image.avif') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    filter: brightness(90%);
+}
+.missionimage{
+  background: url('ModernAboriginalArt.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    filter: brightness(90%);
+}
+.welcome{
+  position:absolute;
+  margin-top: 250px;
+  margin-left: 687px;
+  font-family: helvetica;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  font-size: 80px;
+  
+}
+/* Make the logo have a rounded edge */
+img.top-image {
+   vertical-align: middle;
+}
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+   overflow: hidden;
+   background-color: rgb(255, 199, 199);
+ }
+ 
+ /*Style the topnav links*/
+ .topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+ 
+ /* Change color on hover */
+ .topnav a:hover {
+   text-shadow: none;
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Style the content */
+ .content {
+   background-color: rgb(255, 255, 255);
+   padding: 0px;
+ }
+ .body1{
+   margin-right: 510px;
+   text-align: justify;
+ }
+ .body2{
+   margin-left: 530px;
+   text-align: justify;
+ }
+ img.HI1{
+   border-radius: 30px;
+ }
+ /* Style the footer */
+ .footer {
+   /*margin-top: 100px;
+   margin: auto;
+   background-color: #f6ff7b;
+   padding: 0px;
+   height: 100px;*/
+
+  background: url('Home Image.avif') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+  filter: brightness(90%);
+  background-position: bottom;
+ }
+ .missiontext{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+.SingleValue{
+  margin-bottom: 19900px;
+
+}
+.proportional{
+  margin-left: 100px;
+  margin-bottom: 20020px;
+}
+.AllData{
+  margin: auto;
+}
+.table-wrap{
+  height: 400px;
+  overflow-y: scroll;
+  display: inline-block;
+  text-align: center;
+}
+table.data, tr, th, td.coldata {
+  width: 25%;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+td.coldata{
+  background-color: white;
+}
+table.home{
+  border: none;
+}
+
+.flexbox-persona1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-persona2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-persona3 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-mission {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.flexbox-students {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-lga {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-state {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+.flexbox-difference {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 300px;
+}
+
+.flexbox-changes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(255, 199, 199);
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 300px;
+}
+
+input.check {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+label.catname {
+  display: block;
+}
+.gapheader{
+  margin-left: 40px;
+}
+.pointers{
+  display: flex;
+  width: 420px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.scores{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gapcontainer{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  background-color: rgb(255, 199, 199);
+  border-radius: 30px;
+}
+.datacontainer{
+  display:flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.censustables{
+  display:flex;
+  justify-content:space-evenly;
+  gap: 50px;
+  background-color: rgb(255, 199, 199);
+  border-radius: 30px;
+}
+.gaptables{
+  margin-top: 50px;
+  height: 400px;
+  overflow-y: scroll;
+  display: inline-block;
+}
+table.data, tr, th, td.coldata {
+  width: 25%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+td.coldata{
+  background-color: white;
+}
+table.home{
+  border: none;
+}
+.outcome1, .outcome2, .outcome3{
+  display: flex;
+  gap: 50px;
+  background-color: rgb(255, 199, 199);
+  border-radius: 30px;
+  width: 400px;
+}
+
+.SelectedOutcome{
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  background-color: rgb(255, 199, 199);
+  border-radius: 30px;
+  width: 400px;
+}
+.outcomeinfo{
+  margin-right: 40px;
+  text-align: center;
+}
+.SelectedOutcomeInfo{
+  text-align: center;
+}
+.TargetedOutcomes{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.headwrap{
+  text-align: center;
+}
+.totalgap, .lgagap{
+  margin-left: 40px;
+}
